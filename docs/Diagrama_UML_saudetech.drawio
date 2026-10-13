@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="TEYFeGC4XD9inqEHP5NO">
+    <mxGraphModel dx="1952" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="novo-title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" value="&lt;b&gt;Diagrama de componentes UML — fork saudetech-dashboards (Grupo 13) · VISA-Londrina&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="787" x="20" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-37" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;p&gt;«external»&lt;/p&gt;&lt;p&gt;&lt;b&gt;Navegador (WEB)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;PAINEL VISA&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="215" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-38" parent="YbgDHD__E-8VguVb1PkT-37" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-44" parent="1" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;whiteSpace=wrap;fontSize=10;fillColor=#f8f9fa;strokeColor=#666666;" value="«container» saudetech-dashboards · Docker · php:8.2-apache&lt;div style=&quot;font-size: 9px;&quot;&gt;no host: 8080 → contêiner: 10000 · .env fora do repositório (.gitignore)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1150" width="910" x="-140" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-49" parent="1" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#333336;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="290" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-http-b" parent="1" style="ellipse;html=1;fillColor=#333336;strokeColor=#333336;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-50" edge="1" parent="1" source="YbgDHD__E-8VguVb1PkT-49" style="endArrow=none;html=1;rounded=0;strokeColor=#333336;strokeWidth=1.5;" target="novo-http-b" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YbgDHD__E-8VguVb1PkT-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;p&gt;HTTP (GET/POST)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="125" x="330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-5" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="-DsyrHBT9ao64C-FT4K7-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-8" connectable="0" parent="-DsyrHBT9ao64C-FT4K7-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="instancia" vertex="1">
+          <mxGeometry relative="1" x="-0.0857" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-1" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p&gt;«component»&lt;/p&gt;&lt;p&gt;&lt;b&gt;Roteador · public/index.php&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Sessão, login obrigatório, rotas&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="215" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-2" parent="-DsyrHBT9ao64C-FT4K7-1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-14" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;dashed=1;" value="">
+          <mxGeometry relative="1" x="0.6884" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="560" />
+            </Array>
+            <mxPoint x="110.25" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-47" connectable="0" parent="-DsyrHBT9ao64C-FT4K7-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="render()" vertex="1">
+          <mxGeometry relative="1" x="-0.1466" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-22" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=12;" target="-DsyrHBT9ao64C-FT4K7-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-46" connectable="0" parent="-DsyrHBT9ao64C-FT4K7-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="herda" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="novo-usa" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.65;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=12;dashed=1;" target="-DsyrHBT9ao64C-FT4K7-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-usa-label" connectable="0" parent="novo-usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="usa" vertex="1">
+          <mxGeometry relative="1" x="0.3" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-24" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-45" connectable="0" parent="-DsyrHBT9ao64C-FT4K7-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="consulta" vertex="1">
+          <mxGeometry relative="1" x="-0.7211" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-3" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;" value="«Controllers» app/Controllers - estendem App\Core\Controller" vertex="1">
+          <mxGeometry height="90" width="810" x="-100" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-4" parent="-DsyrHBT9ao64C-FT4K7-3" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=31;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="★ DashboardController&lt;div&gt;I01 Vistorias por status&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="-80" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=28;" value="EstabelecimentoController" vertex="1">
+          <mxGeometry height="50" width="155" x="120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=29;" value="VistoriaController" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=33;" value="UserController" vertex="1">
+          <mxGeometry height="50" width="120" x="500" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-15" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;fontSize=10;" value="«component» Views&lt;div&gt;views/ (raiz) — HTML + Chart.js (CDN)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="300" x="-70" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-16" parent="-DsyrHBT9ao64C-FT4K7-15" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-19" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;fontSize=11;" value="«component» Core · app/Core/&lt;div&gt;Controller: base&lt;/div&gt;&lt;div&gt;Auth: sessão, CSRF&lt;/div&gt;&lt;div&gt;Labels: ENUMs de domínio&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="380" x="350" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-20" parent="-DsyrHBT9ao64C-FT4K7-19" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-32" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="-DsyrHBT9ao64C-FT4K7-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-44" connectable="0" parent="-DsyrHBT9ao64C-FT4K7-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="usa Database" vertex="1">
+          <mxGeometry relative="1" x="0.0047" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-25" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;" value="«Repositories» app/Repositories" vertex="1">
+          <mxGeometry height="90" width="820" x="-100" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-26" parent="-DsyrHBT9ao64C-FT4K7-25" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=31;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="★ DashboardRepository" vertex="1">
+          <mxGeometry height="50" width="140" x="-50" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=31;" value="VistoriaRepository" vertex="1">
+          <mxGeometry height="50" width="140" x="135" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=31;" value="EstabelecimentoRepository" vertex="1">
+          <mxGeometry height="50" width="160" x="320" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;arcSize=31;" value="UserRepository" vertex="1">
+          <mxGeometry height="50" width="140" x="540" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-36" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-DsyrHBT9ao64C-FT4K7-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-42" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="-DsyrHBT9ao64C-FT4K7-41" value="CARREGA .env">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-33" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;" value="«component» Config · app/Config/&lt;div&gt;Database.php: singleton PDO&lt;/div&gt;&lt;div&gt;DSN pgsql · search_path saudetech&lt;/div&gt;&lt;div&gt;timezone America/Sao_Paulo&lt;/div&gt;&lt;div&gt;&lt;b&gt;Env.php&lt;/b&gt;: CARREGA .env&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="435" x="90" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-34" parent="-DsyrHBT9ao64C-FT4K7-33" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-37" parent="1" style="ellipse;html=1;fillColor=#ffffff;strokeColor=#333336;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="295" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-sql-b" parent="1" style="ellipse;html=1;fillColor=#333336;strokeColor=#333336;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="295" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-38" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-37" style="endArrow=none;html=1;rounded=0;strokeColor=#333336;strokeWidth=1.5;" target="novo-sql-b" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-40" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" value="«external» PostgreSQL (Render)&lt;div&gt;schema saudetech&lt;/div&gt;&lt;div&gt;sslmode=require&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="170" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-41" parent="1" style="whiteSpace=wrap;html=1;fontSize=11;align=left;verticalAlign=top;" value="«file» .env (segredos)&lt;div&gt;Fora do repositório (.gitignore)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="-190" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL / PDO" vertex="1">
+          <mxGeometry height="30" width="80" x="340" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-sync-b" parent="1" style="ellipse;html=1;fillColor=#333336;strokeColor=#333336;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="295" y="1565" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-49" edge="1" parent="1" source="-DsyrHBT9ao64C-FT4K7-48" style="endArrow=none;html=1;rounded=0;strokeColor=#333336;strokeWidth=1.5;" target="novo-sync-b" value="grava vistorias · sync">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-DsyrHBT9ao64C-FT4K7-48" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="«external» &lt;div&gt;&lt;b&gt;APP DO TABLET&lt;/b&gt;&lt;/div&gt;&lt;div&gt;cria vistorias · sync&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="1635" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-note-sync" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;align=left;fontSize=10;" value="★ sync offline-first&lt;div&gt;grava localmente; sincroniza com o banco (via API) ao retornar à rede&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="240" x="395" y="1625" as="geometry" />
+        </mxCell>
+        <mxCell id="xa3ID99m7iD9-u-GcfOb-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;verticalAlign=top;align=left;" value="★ Indicador do grupo (Grupo 13) — I01 «Vistorias por status»&lt;div&gt;DashboardRepository::meuIndicador() + views/dashboard/_grafico.php&lt;/div&gt;&lt;div&gt;(destacados em azul no diagrama)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="320" x="440" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="xa3ID99m7iD9-u-GcfOb-3" parent="1" style="html=1;whiteSpace=wrap;" value="dashboard/ · vistorias/ · estabelecimentos/ · users/ · auth/ · partials/" vertex="1">
+          <mxGeometry height="105" width="110" x="-50" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="xa3ID99m7iD9-u-GcfOb-4" parent="1" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="views/dashboard/_grafico.php&lt;div&gt;gráfico I01 (chart.js)&lt;/div&gt;&lt;div&gt;reutiliza bar/line/doughnut/pie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="140" x="80" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="novo-legenda" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;verticalAlign=top;fontSize=10;" value="Legenda — Grupo 13 (SaúdeTech) · 13 out. 2026 · ferramenta: draw.io (biblioteca UML)&lt;div&gt;● interface fornecida (HTTP, SQL, sync) · ○ interface requerida · tracejada = dependência (usa → usado) · azul ★ = indicador do grupo I01 «Vistorias por status»&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="700" x="10" y="1720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
